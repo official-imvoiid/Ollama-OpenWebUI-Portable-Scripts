@@ -220,15 +220,6 @@ launch_openwebui.bat
 3. **After moving**: Run `SetEnv.bat` + offline manager
 4. **Restore data**: Replace new `webui.db` with backed up one
 
-### 📦 Offline Package Creation
-```bash
-# Create complete offline package:
-1. Run offline_manager.bat (downloads all wheels)
-2. Backup webui.db
-3. Package entire folder
-4. Deploy anywhere - no internet needed!
-```
-
 ### 🎪 Performance Optimization
 - **SSD**: Install on SSD for faster model loading
 - **RAM**: 16GB+ for larger models
